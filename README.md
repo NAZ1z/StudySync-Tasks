@@ -38,7 +38,7 @@ Node.js
 # Application Screenshots
 
 ## 1. Dashboard
-![Dashboard](screenshots/Screenshot 2026-11-22 194548.png)
+![Dashboard](screenshots/Screenshot%2026-11-22%194548.png)
 
 Main dashboard displaying courses and group information.
 
