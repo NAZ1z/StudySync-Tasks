@@ -1,11 +1,11 @@
 # StudySync-Tasks-
 A cloud-based academic task management web application that helps student teams organize courses, assign tasks, track progress, and collaborate in real time.
 
-About the Project
+# About the Project
 
 StudySync Tasks is a cloud-based web application designed to help students manage academic group projects. It allows students to create courses, invite team members, assign tasks, track progress, and collaborate through real-time synchronization.
 
-Key Features
+# Key Features
 
 User Registration and Login
 
@@ -35,25 +35,25 @@ Firebase Hosting
 
 Node.js
 
-Application Screenshots
+# Application Screenshots
 
-1. Dashboard
+# 1. Dashboard
 
 Main dashboard displaying courses and group information.
 
-2. Task Management
+# 2. Task Management
 
 Create, assign, edit, and manage academic tasks.
 
-3. Course Management
+# 3. Course Management
 
 Create courses and invite team members.
 
-4. Authentication
+# 4. Authentication
 
 User registration, login, and email verification.
 
-5. Filter and Sort
+# 5. Filter and Sort
 
 Organize tasks based on status and due dates.
 
