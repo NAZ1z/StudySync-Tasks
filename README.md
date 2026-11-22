@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 StudySync Tasks
+# StudySync Tasks
 
 **A cloud-based, real-time task manager built for student project teams.**
 
@@ -15,21 +15,20 @@ Create courses, invite teammates, assign tasks, and watch progress update live �
 
 ---
 
-## 📌 Table of Contents
-- [About](#-about)
-- [Features](#-features)
-- [Screenshots](#-screenshots)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [How It Works](#-how-it-works)
-- [Getting Started](#-getting-started)
-- [Security](#-security)
-- [Limitations & Future Work](#-limitations--future-work)
-- [Team](#-team)
+## Table of Contents
+- [About](#about)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Tech Stack](#tech-stack)
+- [Architecture](#architecture)
+- [How It Works](#how-it-works)
+- [Getting Started](#getting-started)
+- [Security](#security)
+- [Limitations & Future Work](#limitations--future-work)
 
 ---
 
-## 💡 About
+## About
 
 Most to-do apps are built for individuals. Student group projects need something different: one shared place where everyone can see **who is doing what, and by when**.
 
@@ -39,20 +38,20 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ---
 
-## ✨ Features
+## Features
 
-| | Feature | Description |
-|---|---|---|
-| 🔐 | **Secure Authentication** | Sign up / log in with email & password, with mandatory email verification |
-| 📘 | **Course Management** | Create courses and invite members by email |
-| ✅ | **Task Management (CRUD)** | Create, edit, delete and assign tasks |
-| 🎯 | **Priority & Due Dates** | Set priority (Low / Medium / High), status and deadline per task |
-| 🔎 | **Filter & Sort** | Filter by status; sort by due date or creation date |
-| ⚡ | **Real-Time Sync** | Changes appear instantly for every team member |
+| Feature | Description |
+|---|---|
+| **Secure Authentication** | Sign up / log in with email & password, with mandatory email verification |
+| **Course Management** | Create courses and invite members by email |
+| **Task Management (CRUD)** | Create, edit, delete and assign tasks |
+| **Priority & Due Dates** | Set priority (Low / Medium / High), status and deadline per task |
+| **Filter & Sort** | Filter by status; sort by due date or creation date |
+| **Real-Time Sync** | Changes appear instantly for every team member |
 
 ---
 
-## 🖼 Screenshots
+## Screenshots
 
 | Dashboard | Add New Task |
 |---|---|
@@ -64,7 +63,7 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -76,7 +75,7 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 ┌──────────────────────┐        ┌───────────────────────────┐
@@ -94,7 +93,7 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 1. **Sign up** → a verification email is sent → the user verifies the account.
 2. **Log in** → land on the dashboard showing all courses the user belongs to.
@@ -105,7 +104,7 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -150,7 +149,7 @@ firebase deploy --only hosting
 
 ---
 
-## 🔒 Security
+## Security
 
 Firestore access is restricted to authenticated users:
 
@@ -165,32 +164,13 @@ service cloud.firestore {
 }
 ```
 
-> 🔧 Planned improvement: scope rules so users can only access courses they are members of.
+> Planned improvement: scope rules so users can only access courses they are members of.
 
 ---
 
-## 🧭 Limitations & Future Work
+## Limitations & Future Work
 
 - [ ] Per-course access rules in Firestore
 - [ ] In-app notifications for new assignments and approaching deadlines
 - [ ] Task comments and file attachments
 - [ ] Mobile-optimized layout
-
----
-
-## 👩‍💻 Team
-
-| Name | GitHub |
-|---|---|
-| Nazek Alzaid | [@NAZ1z](https://github.com/NAZ1z) |
-| Nawt Alotaibi | — |
-| Shahad Alrashidi | — |
-| Raghad Bin Thwaini | — |
-
-**Supervised by:** Dr. Jaben Sultana — CS355 Cloud Computing
-
----
-
-<div align="center">
-⭐ If you find this project useful, consider giving it a star!
-</div>
