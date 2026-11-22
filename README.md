@@ -55,11 +55,11 @@ Most to-do apps are built for individuals. Student group projects need something
 
 | Dashboard | Add New Task |
 |---|---|
-| ![Dashboard](Screenshot%202026-11-22%20194548.png) | ![Add task](Screenshot%202026-11-22%20194615.png) |
+| ![Dashboard](screenshots/dashboard.png) | ![Add task](screenshots/add-task.png) |
 
 | Sort Tasks | Filter Tasks |
 |---|---|
-| ![Sort](Screenshot%202026-11-22%20194659.png) | ![Filter](Screenshot%202026-11-22%20194726.png) |
+| ![Sort](screenshots/sort-tasks.png) | ![Filter](screenshots/filter-tasks.png) |
 
 ---
 
