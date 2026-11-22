@@ -112,8 +112,8 @@ Most to-do apps are built for individuals. Student group projects need something
 
 ### 1. Clone & install
 ```bash
-git clone https://github.com/NAZ1z/StudySync-Tasks-.git
-cd StudySync-Tasks-
+git clone https://github.com/NAZ1z/StudySync-Tasks.git
+cd StudySync-Tasks
 npm install
 ```
 
@@ -174,3 +174,9 @@ service cloud.firestore {
 - [ ] In-app notifications for new assignments and approaching deadlines
 - [ ] Task comments and file attachments
 - [ ] Mobile-optimized layout
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
